@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    background:linear-gradient(135deg,#071427,#051017);
+    font-family:Inter,Arial,sans-serif;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+  }
+.card{
+  width:500px;
+  background:rgba(255,255,255,0.05);
+  border-radius:10px;
+  padding:30px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.4);
+  text-align:center;
+}
+  h1{text-align:center;margin-bottom:20px;}
+  .form-group{margin-bottom:15px;display:flex;flex-direction:column;}
+  label{font-size:13px;margin-bottom:5px;}
+  input{padding:10px;border-radius:6px;border:none;background:rgba(255,255,255,0.1);color:#fff;}
+  .actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;}
+  .btn{cursor:pointer;padding:10px 16px;border:none;border-radius:6px;font-weight:600;}
+  .btn-primary{background:#2563eb;color:#fff;}
+  .btn-green{background:#16a34a;color:#fff;}
+  .btn-outline{background:none;border:1px solid #fff;color:#fff;}
